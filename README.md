@@ -21,7 +21,7 @@
 - 👀 I am interested in the whole area of programming
 - 🌱 I am currently studying
 - 💞️ I am looking to collaborate with projects to be able to have experience
-- 📫 How to get to me: https://william-cabrera.me/ 
+- 📫 Personal portfolio: [william-cabrera.me](https://william-cabrera.me/) 
 ---
 
 ### 📊 GitHub Stats
