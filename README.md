@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/4NDR3S-01/4NDR3S-01/assets/132201725/639e7025-3914-4844-9503-33b61e7a70bf" width="200" />
+  <!-- <img src="https://github.com/4NDR3S-01/4NDR3S-01/assets/132201725/639e7025-3914-4844-9503-33b61e7a70bf" width="200" /> -->
 <h1>👋 ¡Hola / Hi! Soy @4NDR3S-01 (Andrés)</h1>
 </div>
 
