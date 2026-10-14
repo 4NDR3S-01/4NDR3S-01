@@ -1,0 +1,42 @@
+name: Generate stats card
+
+on:
+  schedule: # todos los días
+    - cron: "30 0 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/build_stats.py
+      - scripts/build_assets.py
+      - .github/workflows/stats.yml
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build assets/stats.svg
+        run: python3 scripts/build_stats.py "${{ github.repository_owner }}" assets/stats.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/stats.svg
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: update stats.svg"
+          for i in 1 2 3 4 5; do
+            git pull --rebase && git push && exit 0
+            sleep 10
+          done
+          exit 1

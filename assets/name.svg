@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 104" width="640" height="104" role="img" aria-label="Andrés Cabrera">
+  <title>Andrés Cabrera</title>
+  <defs>
+    <linearGradient id="shine" gradientUnits="userSpaceOnUse" x1="-300" y1="0" x2="-40" y2="0">
+      <stop offset="0"    stop-color="#ffffff"/>
+      <stop offset="0.42" stop-color="#ffffff"/>
+      <stop offset="0.5"  stop-color="#c084fc"/>
+      <stop offset="0.58" stop-color="#ffffff"/>
+      <stop offset="1"    stop-color="#ffffff"/>
+      <animate attributeName="x1" from="-300" to="640" dur="4.5s" repeatCount="indefinite"/>
+      <animate attributeName="x2" from="-40" to="900" dur="4.5s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="shineLight" gradientUnits="userSpaceOnUse" x1="-300" y1="0" x2="-40" y2="0">
+      <stop offset="0"    stop-color="#1e1030"/>
+      <stop offset="0.42" stop-color="#1e1030"/>
+      <stop offset="0.5"  stop-color="#7c3aed"/>
+      <stop offset="0.58" stop-color="#1e1030"/>
+      <stop offset="1"    stop-color="#1e1030"/>
+      <animate attributeName="x1" from="-300" to="640" dur="4.5s" repeatCount="indefinite"/>
+      <animate attributeName="x2" from="-40" to="900" dur="4.5s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="soft" x="-40%" y="-100%" width="180%" height="320%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+  </defs>
+  <style>
+    .t { fill: url(#shine); }
+    @media (prefers-color-scheme: light) { .t { fill: url(#shineLight); } }
+  </style>
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0; 0,-3.5; 0,0" dur="5.5s"
+                      calcMode="spline" keyTimes="0;0.5;1" keySplines=".45 0 .55 1;.45 0 .55 1" repeatCount="indefinite"/>
+    <text x="320.0" y="58" text-anchor="middle" font-family="Verdana,DejaVu Sans,sans-serif" font-size="42" font-weight="bold" letter-spacing="3" filter="url(#soft)" fill="#a855f7" opacity=".45">ANDRÉS CABRERA
+      <animate attributeName="opacity" values=".28;.7;.28" dur="3.4s" repeatCount="indefinite"/>
+    </text>
+    <text x="320.0" y="58" text-anchor="middle" font-family="Verdana,DejaVu Sans,sans-serif" font-size="42" font-weight="bold" letter-spacing="3" class="t">ANDRÉS CABRERA</text>
+    <text x="320.0" y="58" text-anchor="middle" font-family="Verdana,DejaVu Sans,sans-serif" font-size="42" font-weight="bold" letter-spacing="3" filter="url(#soft)" fill="#22d3ee" opacity="0">ANDRÉS CABRERA
+      <animate attributeName="opacity" values="0;.85;.1;0;0" keyTimes="0;.012;.06;.13;1" dur="12s" repeatCount="indefinite"/>
+    </text>
+    <rect x="320.0" y="76" width="0" height="2" fill="#a855f7">
+      <animate attributeName="width" values="0;400;400;0" keyTimes="0;.35;.8;1" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="x" values="320.0;120.0;120.0;320.0" keyTimes="0;.35;.8;1" dur="6s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>

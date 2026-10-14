@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 60" width="560" height="60" role="img" aria-label="Proyectos">
+  <title>Proyectos</title>
+  <defs>
+    <linearGradient id="shine" gradientUnits="userSpaceOnUse" x1="-300" y1="0" x2="-40" y2="0">
+      <stop offset="0"    stop-color="#ffffff"/>
+      <stop offset="0.42" stop-color="#ffffff"/>
+      <stop offset="0.5"  stop-color="#c084fc"/>
+      <stop offset="0.58" stop-color="#ffffff"/>
+      <stop offset="1"    stop-color="#ffffff"/>
+      <animate attributeName="x1" from="-300" to="560" dur="4.5s" repeatCount="indefinite"/>
+      <animate attributeName="x2" from="-40" to="820" dur="4.5s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="shineLight" gradientUnits="userSpaceOnUse" x1="-300" y1="0" x2="-40" y2="0">
+      <stop offset="0"    stop-color="#1e1030"/>
+      <stop offset="0.42" stop-color="#1e1030"/>
+      <stop offset="0.5"  stop-color="#7c3aed"/>
+      <stop offset="0.58" stop-color="#1e1030"/>
+      <stop offset="1"    stop-color="#1e1030"/>
+      <animate attributeName="x1" from="-300" to="560" dur="4.5s" repeatCount="indefinite"/>
+      <animate attributeName="x2" from="-40" to="820" dur="4.5s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a855f7" stop-opacity=".55"/><stop offset="1" stop-color="#a855f7" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="soft" x="-40%" y="-100%" width="180%" height="320%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+  </defs>
+  <style>
+    .t { fill: url(#shine); }
+    @media (prefers-color-scheme: light) { .t { fill: url(#shineLight); } }
+  </style>
+  <g transform="translate(16 31) rotate(45)">
+    <rect x="-9" y="-9" width="18" height="18" fill="#a855f7" filter="url(#soft)">
+      <animate attributeName="opacity" values=".35;.9;.35" dur="3.4s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="-5.5" y="-5.5" width="11" height="11" fill="#c084fc">
+      <animateTransform attributeName="transform" type="scale" values="1;1.18;1" dur="3.4s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <text x="40" y="41" textLength="177" lengthAdjust="spacing" font-family="Verdana,DejaVu Sans,sans-serif" font-size="26" font-weight="bold" filter="url(#soft)" fill="#a855f7" opacity=".4">PROYECTOS
+    <animate attributeName="opacity" values=".22;.6;.22" dur="3.4s" repeatCount="indefinite"/>
+  </text>
+  <text x="40" y="41" textLength="177" lengthAdjust="spacing" font-family="Verdana,DejaVu Sans,sans-serif" font-size="26" font-weight="bold" class="t">PROYECTOS</text>
+  <text x="40" y="41" textLength="177" lengthAdjust="spacing" font-family="Verdana,DejaVu Sans,sans-serif" font-size="26" font-weight="bold" filter="url(#soft)" fill="#22d3ee" opacity="0">PROYECTOS
+    <animate attributeName="opacity" values="0;.85;.1;0;0" keyTimes="0;.012;.06;.13;1" dur="12s" repeatCount="indefinite"/>
+  </text>
+  <rect x="40" y="53" width="500" height="1" fill="url(#rule)"/>
+  <rect x="40" y="52" width="0" height="2" fill="#c084fc">
+    <animate attributeName="width" values="0;177;177;0" keyTimes="0;.35;.8;1" dur="6s" repeatCount="indefinite"/>
+  </rect>
+</svg>

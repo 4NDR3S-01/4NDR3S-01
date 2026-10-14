@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 52" width="220" height="52" role="img" aria-label="X / Twitter">
+  <title>X / Twitter</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#170b26"/><stop offset="1" stop-color="#08040e"/>
+    </linearGradient>
+    <linearGradient id="shine" gradientUnits="userSpaceOnUse" x1="-200" y1="0" x2="-60" y2="0">
+      <stop offset="0"    stop-color="#ffffff"/>
+      <stop offset="0.42" stop-color="#ffffff"/>
+      <stop offset="0.5"  stop-color="#c084fc"/>
+      <stop offset="0.58" stop-color="#ffffff"/>
+      <stop offset="1"    stop-color="#ffffff"/>
+      <animate attributeName="x1" from="-200" to="220" dur="3.6s" repeatCount="indefinite"/>
+      <animate attributeName="x2" from="-60" to="360" dur="3.6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="glow" x="-25%" y="-60%" width="150%" height="220%">
+      <feGaussianBlur stdDeviation="2.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="1" y="1" width="218" height="50" rx="10" fill="url(#bg)"/>
+  <rect x="1" y="1" width="218" height="50" rx="10" fill="none" stroke="#5b2a8a" stroke-width="1.5"><animate attributeName="stroke" values="#5b2a8a;#c084fc;#5b2a8a;#5b2a8a" keyTimes="0;.015;.12;1" dur="12s" repeatCount="indefinite"/></rect>
+  
+  <rect x="1" y="1" width="218" height="50" rx="10" fill="none" stroke="#c084fc"
+        stroke-width="2" pathLength="100" stroke-dasharray="16 84" stroke-linecap="round"
+        filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" from="0" to="100" dur="3.6s" repeatCount="indefinite"/>
+  </rect>
+  <g transform="translate(20 13)" filter="url(#glow)">
+    <animate attributeName="opacity" values=".75;1;.75" dur="3.4s" repeatCount="indefinite"/>
+    <path d="M3 1h7l17 24h-7z M27 1L17.5 11.5 M3 25l9.5-10.5" fill="none" stroke="#c084fc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="62" y="31" font-family="Verdana,DejaVu Sans,sans-serif" font-size="12.5" font-weight="bold" letter-spacing="1.6" fill="url(#shine)">X / TWITTER</text>
+  
+  <path d="M192 20 l6 6 l-6 6" fill="none" stroke="#c084fc" stroke-width="2.2"
+        stroke-linecap="round" stroke-linejoin="round">
+    <animateTransform attributeName="transform" type="translate" values="0,0; 4,0; 0,0" dur="1.6s"
+                      calcMode="spline" keyTimes="0;0.5;1" keySplines=".45 0 .55 1;.45 0 .55 1"
+                      repeatCount="indefinite"/>
+  </path>
+</svg>

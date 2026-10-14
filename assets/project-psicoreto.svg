@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 230" width="440" height="230" role="img" aria-label="PsicoReto - Plataforma de estudio de psicopatología con casos clínicos, retos, modo examen, repaso espaciado y gamificación.">
+  <title>PsicoReto - Plataforma de estudio de psicopatología con casos clínicos, retos, modo examen, repaso espaciado y gamificación.</title>
+  <defs>
+    <clipPath id="frame"><rect width="440" height="230" rx="14"/></clipPath>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#12081f"/><stop offset="1" stop-color="#05020a"/>
+    </linearGradient>
+    <radialGradient id="ember" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity=".4"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shine" gradientUnits="userSpaceOnUse" x1="-260" y1="0" x2="-60" y2="0">
+      <stop offset="0"    stop-color="#ffffff"/>
+      <stop offset="0.42" stop-color="#ffffff"/>
+      <stop offset="0.5"  stop-color="#c084fc"/>
+      <stop offset="0.58" stop-color="#ffffff"/>
+      <stop offset="1"    stop-color="#ffffff"/>
+      <animate attributeName="x1" from="-260" to="440" dur="4.5s" repeatCount="indefinite"/>
+      <animate attributeName="x2" from="-60" to="640" dur="4.5s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="glow" x="-25%" y="-60%" width="150%" height="220%">
+      <feGaussianBlur stdDeviation="2.6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>
+    text  { font-family: Verdana,DejaVu Sans,sans-serif; }
+    .name { font-size: 21px; font-weight: bold; letter-spacing: 1px; }
+    .desc { fill: #cbbfdc; font-size: 12.5px; }
+    .chip { fill: #d8b4fe; font-size: 11px; }
+    .tag  { fill: #22d3ee; font-size: 10px; font-weight: bold; letter-spacing: 1px; }
+    .cta  { fill: #ece3f7; font-size: 11.5px; font-weight: bold; letter-spacing: 1px; }
+  </style>
+  <g clip-path="url(#frame)">
+    <rect width="440" height="230" fill="url(#bg)"/>
+    <ellipse cx="440" cy="0" rx="240" ry="170" fill="url(#ember)">
+      <animate attributeName="opacity" values=".45;1;.45" dur="3.4s" repeatCount="indefinite"/>
+    </ellipse>
+    <g transform="translate(33 47) rotate(45)">
+      <rect x="-5" y="-5" width="10" height="10" fill="#c084fc" filter="url(#glow)">
+        <animateTransform attributeName="transform" type="scale" values="1;1.2;1" dur="3.4s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    <text x="50" y="55" class="name" fill="url(#shine)" filter="url(#glow)">PsicoReto</text>
+    <rect x="352" y="36" width="64" height="20" rx="4" fill="none" stroke="#22d3ee" stroke-opacity=".6"/>
+    <text x="384.0" y="50" text-anchor="middle" class="tag">EDTECH</text>
+    <rect x="26" y="68" width="0" height="2" fill="#a855f7">
+      <animate attributeName="width" values="0;129;129;0" keyTimes="0;.35;.8;1" dur="6s" repeatCount="indefinite"/>
+    </rect>
+  <text x="26" y="92" class="desc">Plataforma de estudio de psicopatología con casos</text>
+  <text x="26" y="112" class="desc">clínicos, retos, modo examen, repaso espaciado y</text>
+  <text x="26" y="132" class="desc">gamificación.</text>
+    <g>
+      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.400;1" dur="0.75s" fill="freeze"/>
+      <rect x="26" y="160" width="89" height="22" rx="11" fill="#1a0b2b" stroke="#4c1d95"/>
+      <text x="70.5" y="175" text-anchor="middle" class="chip">Next.js 16</text>
+    </g>
+    <g>
+      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.353;1" dur="0.85s" fill="freeze"/>
+      <rect x="121" y="160" width="75" height="22" rx="11" fill="#1a0b2b" stroke="#4c1d95"/>
+      <text x="158.5" y="175" text-anchor="middle" class="chip">React 19</text>
+    </g>
+    <g>
+      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.316;1" dur="0.95s" fill="freeze"/>
+      <rect x="202" y="160" width="89" height="22" rx="11" fill="#1a0b2b" stroke="#4c1d95"/>
+      <text x="246.5" y="175" text-anchor="middle" class="chip">Tailwind 4</text>
+    </g>
+    <g>
+      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.286;1" dur="1.05s" fill="freeze"/>
+      <rect x="297" y="160" width="75" height="22" rx="11" fill="#1a0b2b" stroke="#4c1d95"/>
+      <text x="334.5" y="175" text-anchor="middle" class="chip">Supabase</text>
+    </g>
+    <text x="396" y="210" text-anchor="end" class="cta">VER REPO</text>
+  <path d="M404 201 l5 5 l-5 5" fill="none" stroke="#c084fc" stroke-width="2.2"
+        stroke-linecap="round" stroke-linejoin="round">
+    <animateTransform attributeName="transform" type="translate" values="0,0; 4,0; 0,0" dur="1.6s"
+                      calcMode="spline" keyTimes="0;0.5;1" keySplines=".45 0 .55 1;.45 0 .55 1"
+                      repeatCount="indefinite"/>
+  </path>
+    <rect x="1" y="1" width="438" height="228" rx="13" fill="none" stroke="#5b2a8a" stroke-width="1.5"><animate attributeName="stroke" values="#5b2a8a;#c084fc;#5b2a8a;#5b2a8a" keyTimes="0;.015;.12;1" dur="12s" repeatCount="indefinite"/></rect>
+    
+  <rect x="1" y="1" width="438" height="228" rx="13" fill="none" stroke="#c084fc"
+        stroke-width="2" pathLength="100" stroke-dasharray="12 88" stroke-linecap="round"
+        filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" from="0" to="-100" dur="6s" repeatCount="indefinite"/>
+  </rect>
+  </g>
+</svg>
