@@ -88,10 +88,10 @@
       <animate attributeName="opacity" values="0;1" dur=".4s" begin="0.30s" fill="freeze"/>
       <circle cx="494" cy="91" r="4" fill="#4F5D95"/>
       <text x="504" y="96" class="lbl">PHP</text>
-      <text x="860" y="96" text-anchor="end" class="pct">53.3%</text>
+      <text x="860" y="96" text-anchor="end" class="pct">53.2%</text>
       <rect x="610" y="87" width="170" height="6" rx="3" fill="#1f0f33"/>
       <rect x="610" y="87" width="0" height="6" rx="3" fill="url(#bar)">
-        <animate attributeName="width" values="0;90.6" dur="1.2s" begin="0.30s"
+        <animate attributeName="width" values="0;90.5" dur="1.2s" begin="0.30s"
                  calcMode="spline" keySplines=".2 .7 .3 1" fill="freeze"/>
       </rect>
     </g>
@@ -99,7 +99,7 @@
       <animate attributeName="opacity" values="0;1" dur=".4s" begin="0.42s" fill="freeze"/>
       <circle cx="494" cy="117" r="4" fill="#3178c6"/>
       <text x="504" y="122" class="lbl">TypeScript</text>
-      <text x="860" y="122" text-anchor="end" class="pct">19.9%</text>
+      <text x="860" y="122" text-anchor="end" class="pct">19.8%</text>
       <rect x="610" y="113" width="170" height="6" rx="3" fill="#1f0f33"/>
       <rect x="610" y="113" width="0" height="6" rx="3" fill="url(#bar)">
         <animate attributeName="width" values="0;33.7" dur="1.2s" begin="0.42s"
