@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 350" width="900" height="350" role="img" aria-label="Estadísticas de GitHub">
+  <title>Estadísticas de GitHub</title>
+  <defs>
+    <clipPath id="frame"><rect width="900" height="350" rx="16"/></clipPath>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#12081f"/><stop offset="1" stop-color="#05020a"/>
+    </linearGradient>
+    <radialGradient id="ember" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity=".35"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6d28d9"/><stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="split" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a855f7" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#a855f7" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#a855f7" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="flame" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#a855f7"/><stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <filter id="glow" x="-25%" y="-60%" width="150%" height="220%">
+      <feGaussianBlur stdDeviation="2.6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>
+    text  { font-family: Verdana,DejaVu Sans,sans-serif; }
+    .h    { fill: #ffffff; font-size: 15px; font-weight: bold; letter-spacing: 2.4px; }
+    .lbl  { fill: #cbbfdc; font-size: 13px; }
+    .num  { fill: #ffffff; font-size: 15px; font-weight: bold; }
+    .pct  { fill: #d8b4fe; font-size: 12px; }
+    .big  { fill: #ffffff; font-size: 30px; font-weight: bold; }
+    .unit { fill: #d8b4fe; font-size: 11px; }
+    .cap  { fill: #cbbfdc; font-size: 11px; font-weight: bold; letter-spacing: 1.6px; }
+  </style>
+  <g clip-path="url(#frame)">
+    <rect width="900" height="350" fill="url(#bg)"/>
+    <ellipse cx="200" cy="140" rx="260" ry="150" fill="url(#ember)">
+      <animate attributeName="opacity" values=".5;1;.5" dur="3.4s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="680" cy="140" rx="260" ry="150" fill="url(#ember)" opacity=".6">
+      <animate attributeName="opacity" values="1;.5;1" dur="3.4s" repeatCount="indefinite"/>
+    </ellipse>
+    <g filter="url(#glow)">
+      <text x="40" y="48" class="h">ACTIVIDAD</text>
+      <text x="490" y="48" class="h">LENGUAJES</text>
+    </g>
+    <rect x="40" y="60" width="0" height="2" fill="#a855f7">
+      <animate attributeName="width" values="0;370;370;0" keyTimes="0;.35;.8;1" dur="6s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="490" y="60" width="0" height="2" fill="#a855f7">
+      <animate attributeName="width" values="0;370;370;0" keyTimes="0;.35;.8;1" dur="6s" begin="-3s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="449.5" y="40" width="1" height="170" fill="#a855f7" opacity=".25"/>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur=".45s" begin="0.15s" fill="freeze"/>
+      <rect x="44" y="87" width="7" height="7" fill="#c084fc" transform="rotate(45 47.5 90.5)"/>
+      <text x="62" y="96" class="lbl">Commits (último año)</text>
+      <text x="410" y="96" text-anchor="end" class="num">443</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur=".45s" begin="0.23s" fill="freeze"/>
+      <rect x="44" y="113" width="7" height="7" fill="#c084fc" transform="rotate(45 47.5 116.5)"/>
+      <text x="62" y="122" class="lbl">Pull requests</text>
+      <text x="410" y="122" text-anchor="end" class="num">67</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur=".45s" begin="0.31s" fill="freeze"/>
+      <rect x="44" y="139" width="7" height="7" fill="#c084fc" transform="rotate(45 47.5 142.5)"/>
+      <text x="62" y="148" class="lbl">Issues</text>
+      <text x="410" y="148" text-anchor="end" class="num">6</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur=".45s" begin="0.39s" fill="freeze"/>
+      <rect x="44" y="165" width="7" height="7" fill="#c084fc" transform="rotate(45 47.5 168.5)"/>
+      <text x="62" y="174" class="lbl">Repositorios</text>
+      <text x="410" y="174" text-anchor="end" class="num">37</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur=".45s" begin="0.47s" fill="freeze"/>
+      <rect x="44" y="191" width="7" height="7" fill="#c084fc" transform="rotate(45 47.5 194.5)"/>
+      <text x="62" y="200" class="lbl">Estrellas recibidas</text>
+      <text x="410" y="200" text-anchor="end" class="num">33</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur=".4s" begin="0.30s" fill="freeze"/>
+      <circle cx="494" cy="91" r="4" fill="#4F5D95"/>
+      <text x="504" y="96" class="lbl">PHP</text>
+      <text x="860" y="96" text-anchor="end" class="pct">53.3%</text>
+      <rect x="610" y="87" width="170" height="6" rx="3" fill="#1f0f33"/>
+      <rect x="610" y="87" width="0" height="6" rx="3" fill="url(#bar)">
+        <animate attributeName="width" values="0;90.6" dur="1.2s" begin="0.30s"
+                 calcMode="spline" keySplines=".2 .7 .3 1" fill="freeze"/>
+      </rect>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur=".4s" begin="0.42s" fill="freeze"/>
+      <circle cx="494" cy="117" r="4" fill="#3178c6"/>
+      <text x="504" y="122" class="lbl">TypeScript</text>
+      <text x="860" y="122" text-anchor="end" class="pct">19.9%</text>
+      <rect x="610" y="113" width="170" height="6" rx="3" fill="#1f0f33"/>
+      <rect x="610" y="113" width="0" height="6" rx="3" fill="url(#bar)">
+        <animate attributeName="width" values="0;33.7" dur="1.2s" begin="0.42s"
+                 calcMode="spline" keySplines=".2 .7 .3 1" fill="freeze"/>
+      </rect>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur=".4s" begin="0.54s" fill="freeze"/>
+      <circle cx="494" cy="143" r="4" fill="#f1e05a"/>
+      <text x="504" y="148" class="lbl">JavaScript</text>
+      <text x="860" y="148" text-anchor="end" class="pct">15.9%</text>
+      <rect x="610" y="139" width="170" height="6" rx="3" fill="#1f0f33"/>
+      <rect x="610" y="139" width="0" height="6" rx="3" fill="url(#bar)">
+        <animate attributeName="width" values="0;27.1" dur="1.2s" begin="0.54s"
+                 calcMode="spline" keySplines=".2 .7 .3 1" fill="freeze"/>
+      </rect>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur=".4s" begin="0.66s" fill="freeze"/>
+      <circle cx="494" cy="169" r="4" fill="#663399"/>
+      <text x="504" y="174" class="lbl">CSS</text>
+      <text x="860" y="174" text-anchor="end" class="pct">7.1%</text>
+      <rect x="610" y="165" width="170" height="6" rx="3" fill="#1f0f33"/>
+      <rect x="610" y="165" width="0" height="6" rx="3" fill="url(#bar)">
+        <animate attributeName="width" values="0;12.0" dur="1.2s" begin="0.66s"
+                 calcMode="spline" keySplines=".2 .7 .3 1" fill="freeze"/>
+      </rect>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur=".4s" begin="0.78s" fill="freeze"/>
+      <circle cx="494" cy="195" r="4" fill="#A97BFF"/>
+      <text x="504" y="200" class="lbl">Kotlin</text>
+      <text x="860" y="200" text-anchor="end" class="pct">1.8%</text>
+      <rect x="610" y="191" width="170" height="6" rx="3" fill="#1f0f33"/>
+      <rect x="610" y="191" width="0" height="6" rx="3" fill="url(#bar)">
+        <animate attributeName="width" values="0;3.0" dur="1.2s" begin="0.78s"
+                 calcMode="spline" keySplines=".2 .7 .3 1" fill="freeze"/>
+      </rect>
+    </g>
+    <rect x="40" y="232" width="820" height="1" fill="url(#split)"/>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur=".5s" begin="0.60s" fill="freeze"/>
+      <text x="150" y="282" text-anchor="middle" class="big" filter="url(#glow)">490</text>
+      <text x="150" y="302" text-anchor="middle" class="unit">contribuciones</text>
+      <text x="150" y="324" text-anchor="middle" class="cap">ÚLTIMO AÑO</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur=".5s" begin="0.75s" fill="freeze"/>
+      <path d="M380 282 c-9-8-7-18 0-26 c0 7 4 9 6 9 c-2-8 2-15 8-19 c-1 9 9 12 9 22 c0 9-7 14-12 14 c-5 0-9-2-11-0z"
+            fill="url(#flame)" filter="url(#glow)">
+        <animateTransform attributeName="transform" type="scale" values="1 1;1 1.06;1 1" dur="1.4s"
+                          additive="sum" repeatCount="indefinite"/>
+      </path>
+      <text x="450" y="282" text-anchor="middle" class="big" filter="url(#glow)">3</text>
+      <text x="450" y="302" text-anchor="middle" class="unit">días</text>
+      <text x="450" y="324" text-anchor="middle" class="cap">RACHA ACTUAL</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur=".5s" begin="0.90s" fill="freeze"/>
+      <text x="750" y="282" text-anchor="middle" class="big" filter="url(#glow)">10</text>
+      <text x="750" y="302" text-anchor="middle" class="unit">días</text>
+      <text x="750" y="324" text-anchor="middle" class="cap">RACHA MÁS LARGA</text>
+    </g>
+    <rect x="1" y="1" width="898" height="348" rx="15" fill="none" stroke="#5b2a8a" stroke-width="1.5"><animate attributeName="stroke" values="#5b2a8a;#c084fc;#5b2a8a;#5b2a8a" keyTimes="0;.015;.12;1" dur="12s" repeatCount="indefinite"/></rect>
+    
+  <rect x="1" y="1" width="898" height="348" rx="15" fill="none" stroke="#c084fc"
+        stroke-width="2" pathLength="100" stroke-dasharray="6 94" stroke-linecap="round"
+        filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" from="0" to="-100" dur="12s" repeatCount="indefinite"/>
+  </rect>
+  </g>
+</svg>
