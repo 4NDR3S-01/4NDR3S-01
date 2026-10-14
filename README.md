@@ -72,10 +72,12 @@ PostgreSQL, MongoDB, CouchDB and MySQL / MariaDB, and I'm always open to collabo
 </p>
 
 <p align="center">
-Demos en vivo:
-<a href="https://medic-ai-v2.vercel.app">MedicAI ↗</a> ·
+Demos de ultimos proyectos en vivo:
+<a href="https://medicai.lat/">MedicAI ↗</a> ·
 <a href="https://apunte-quiz.vercel.app">ApunteQuiz ↗</a> ·
-<a href="https://psicoreto.vercel.app">PsicoReto ↗</a>
+<a href="https://psicoreto.vercel.app">PsicoReto ↗</a> ·
+<a href="https://psico-lingo.vercel.app/inicio">PsicoLingo ↗</a> ·
+<a href="https://tu-suerte-ec.vercel.app/">TuSuerte EC ↗</a> ·
 </p>
 
 <img src="https://raw.githubusercontent.com/4NDR3S-01/4NDR3S-01/main/assets/divider.svg" width="100%" alt="" />
@@ -84,7 +86,7 @@ Demos en vivo:
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/4NDR3S-01/4NDR3S-01/main/assets/stack.svg" width="100%" alt="Frontend: TypeScript, JavaScript, React, Next.js, Angular, Vue, Tailwind, Bootstrap, HTML, CSS. Mobile: React Native, Kotlin, Flutter, Swift, Android Studio. Backend: Node.js, NestJS, PHP, Laravel, Python, Django, Java, C#, C++. Data: PostgreSQL, MySQL, MariaDB, MongoDB, CouchDB, Firebase, Prisma, Supabase. DevOps: Docker, Git, GitHub, GitHub Actions, Linux, Vercel, Figma, Arduino, Unity." />
+<img src="https://raw.githubusercontent.com/4NDR3S-01/4NDR3S-01/main/assets/stack.svg" width="100%" alt="Frontend: TypeScript, JavaScript, React, Next.js, Angular, Vue, Tailwind, Bootstrap, HTML, CSS. Mobile: React Native, Kotlin, Flutter, Swift, Android Studio. Backend: Node.js, NestJS, PHP, Laravel, Python, Django, Java, C#, C++. Data: PostgreSQL, MySQL, MariaDB, MongoDB, CouchDB, Firebase, Prisma, Supabase. DevOps: Docker, Git, GitHub, GitHub Actions, Linux, Vercel, Figma, Arduino, Unity. Security: Kali Linux, Wireshark, Nmap, tcpdump, Cisco Packet Tracer, Burp Suite, OWASP ZAP, sqlmap, Metasploit, Hydra, John the Ripper / Hashcat, Aircrack-ng." />
 
 </div>
 
@@ -100,7 +102,7 @@ Demos en vivo:
 
 <br/><br/>
 
-<img src="https://raw.githubusercontent.com/4NDR3S-01/4NDR3S-01/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="Gráfico 3D de contribuciones" />
+<img src="https://raw.githubusercontent.com/4NDR3S-01/4NDR3S-01/main/profile-3d-contrib/profile-night-view.svg" width="100%" alt="Gráfico 3D de contribuciones" />
 
 </div>
 

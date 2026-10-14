@@ -572,7 +572,7 @@ RECOLOR = {"devicon:mariadb/mariadb-original": {"#003545": "#c0765a"}}
 
 
 # color de marca para los íconos monocromáticos de Simple Icons
-SI_COLORS = {"kalilinux": "#3d8bfd", "wireshark": "#1f9ad6", "cisco": "#1ba0d7",
+SI_COLORS = {"kalilinux": "#6cb4ff", "wireshark": "#3bb0ea", "cisco": "#1ba0d7",
              "burpsuite": "#ff6633", "zap": "#4a9fe0", "metasploit": "#2596cd"}
 
 # íconos propios (viewBox 256): símbolo + nombre debajo
@@ -614,9 +614,10 @@ def si_icon(raw, name):
     """Ícono de Simple Icons (24x24, una sola ruta) coloreado sobre una baldosa."""
     import re
     d = re.search(r'<path d="([^"]+)"', raw.decode()).group(1)
+    pad = 32 if name == "kalilinux" else 56   # el dragón de Kali es de trazo fino
     return (f'<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 256 256">'
             f'<rect width="256" height="256" rx="60" fill="#242938"/>'
-            f'<svg x="56" y="56" width="144" height="144" viewBox="0 0 24 24">'
+            f'<svg x="{pad}" y="{pad}" width="{256 - 2 * pad}" height="{256 - 2 * pad}" viewBox="0 0 24 24">'
             f'<path fill="{SI_COLORS[name]}" d="{d}"/></svg></svg>').encode()
 
 
