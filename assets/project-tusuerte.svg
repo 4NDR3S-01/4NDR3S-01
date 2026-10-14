@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 230" width="440" height="230" role="img" aria-label="Titulación - Sistema web para gestionar procesos de titulación universitaria, con autenticación, roles y base de datos relacional.">
-  <title>Titulación - Sistema web para gestionar procesos de titulación universitaria, con autenticación, roles y base de datos relacional.</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 230" width="440" height="230" role="img" aria-label="TuSuerteEC - Plataforma de sorteos en vivo para marcas y comunidades, con planes de pago, transparencia y seguridad de datos.">
+  <title>TuSuerteEC - Plataforma de sorteos en vivo para marcas y comunidades, con planes de pago, transparencia y seguridad de datos.</title>
   <defs>
     <clipPath id="frame"><rect width="440" height="230" rx="14"/></clipPath>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
@@ -41,15 +41,15 @@
         <animateTransform attributeName="transform" type="scale" values="1;1.2;1" dur="3.4s" repeatCount="indefinite"/>
       </rect>
     </g>
-    <text x="50" y="55" class="name" fill="url(#shine)" filter="url(#glow)">Titulación</text>
-    <rect x="322" y="36" width="94" height="20" rx="4" fill="none" stroke="#22d3ee" stroke-opacity=".6"/>
-    <text x="369.0" y="50" text-anchor="middle" class="tag">FULL STACK</text>
+    <text x="50" y="55" class="name" fill="url(#shine)" filter="url(#glow)">TuSuerteEC</text>
+    <rect x="344" y="36" width="72" height="20" rx="4" fill="none" stroke="#22d3ee" stroke-opacity=".6"/>
+    <text x="380.0" y="50" text-anchor="middle" class="tag">SORTEOS</text>
     <rect x="26" y="68" width="0" height="2" fill="#a855f7">
       <animate attributeName="width" values="0;143;143;0" keyTimes="0;.35;.8;1" dur="6s" repeatCount="indefinite"/>
     </rect>
-  <text x="26" y="92" class="desc">Sistema web para gestionar procesos de titulación</text>
-  <text x="26" y="112" class="desc">universitaria, con autenticación, roles y base de</text>
-  <text x="26" y="132" class="desc">datos relacional.</text>
+  <text x="26" y="92" class="desc">Plataforma de sorteos en vivo para marcas y</text>
+  <text x="26" y="112" class="desc">comunidades, con planes de pago, transparencia y</text>
+  <text x="26" y="132" class="desc">seguridad de datos.</text>
     <g>
       <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.400;1" dur="0.75s" fill="freeze"/>
       <rect x="26" y="160" width="68" height="22" rx="11" fill="#1a0b2b" stroke="#4c1d95"/>
@@ -57,18 +57,18 @@
     </g>
     <g>
       <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.353;1" dur="0.85s" fill="freeze"/>
-      <rect x="100" y="160" width="75" height="22" rx="11" fill="#1a0b2b" stroke="#4c1d95"/>
-      <text x="137.5" y="175" text-anchor="middle" class="chip">NextAuth</text>
+      <rect x="100" y="160" width="89" height="22" rx="11" fill="#1a0b2b" stroke="#4c1d95"/>
+      <text x="144.5" y="175" text-anchor="middle" class="chip">TypeScript</text>
     </g>
     <g>
       <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.316;1" dur="0.95s" fill="freeze"/>
-      <rect x="181" y="160" width="89" height="22" rx="11" fill="#1a0b2b" stroke="#4c1d95"/>
-      <text x="225.5" y="175" text-anchor="middle" class="chip">PostgreSQL</text>
+      <rect x="195" y="160" width="75" height="22" rx="11" fill="#1a0b2b" stroke="#4c1d95"/>
+      <text x="232.5" y="175" text-anchor="middle" class="chip">Supabase</text>
     </g>
     <g>
       <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.286;1" dur="1.05s" fill="freeze"/>
-      <rect x="276" y="160" width="39" height="22" rx="11" fill="#1a0b2b" stroke="#4c1d95"/>
-      <text x="295.5" y="175" text-anchor="middle" class="chip">Zod</text>
+      <rect x="276" y="160" width="61" height="22" rx="11" fill="#1a0b2b" stroke="#4c1d95"/>
+      <text x="306.5" y="175" text-anchor="middle" class="chip">Stripe</text>
     </g>
     <text x="396" y="210" text-anchor="end" class="cta">VER REPO</text>
   <path d="M404 201 l5 5 l-5 5" fill="none" stroke="#c084fc" stroke-width="2.2"

@@ -68,7 +68,7 @@ PostgreSQL, MongoDB, CouchDB and MySQL / MariaDB, and I'm always open to collabo
 
 <p align="center">
 <a href="https://github.com/4NDR3S-01/PsicoReto"><img src="https://raw.githubusercontent.com/4NDR3S-01/4NDR3S-01/main/assets/project-psicoreto.svg" width="49%" alt="PsicoReto - plataforma de estudio de psicopatología" /></a>
-<a href="https://github.com/4NDR3S-01/Sistema-de-Gesti-n-de-Titulaci-n"><img src="https://raw.githubusercontent.com/4NDR3S-01/4NDR3S-01/main/assets/project-titulacion.svg" width="49%" alt="Sistema de Gestión de Titulación" /></a>
+<a href="https://github.com/4NDR3S-01/TuSuerteEC"><img src="https://raw.githubusercontent.com/4NDR3S-01/4NDR3S-01/main/assets/project-tusuerte.svg" width="49%" alt="TuSuerteEC - plataforma de sorteos en vivo" /></a>
 </p>
 
 <p align="center">
@@ -77,7 +77,7 @@ Demos de ultimos proyectos en vivo:
 <a href="https://apunte-quiz.vercel.app">ApunteQuiz ↗</a> ·
 <a href="https://psicoreto.vercel.app">PsicoReto ↗</a> ·
 <a href="https://psico-lingo.vercel.app/inicio">PsicoLingo ↗</a> ·
-<a href="https://tu-suerte-ec.vercel.app/">TuSuerte EC ↗</a> ·
+<a href="https://tu-suerte-ec.vercel.app/">TuSuerte EC ↗</a>
 </p>
 
 <img src="https://raw.githubusercontent.com/4NDR3S-01/4NDR3S-01/main/assets/divider.svg" width="100%" alt="" />

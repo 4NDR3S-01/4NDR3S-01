@@ -52,9 +52,9 @@ PROJECTS = [
     dict(slug="psicoreto", name="PsicoReto", tag="EDTECH",
          desc="Plataforma de estudio de psicopatología con casos clínicos, retos, modo examen, repaso espaciado y gamificación.",
          chips=["Next.js 16", "React 19", "Tailwind 4", "Supabase"]),
-    dict(slug="titulacion", name="Titulación", tag="FULL STACK",
-         desc="Sistema web para gestionar procesos de titulación universitaria, con autenticación, roles y base de datos relacional.",
-         chips=["Next.js", "NextAuth", "PostgreSQL", "Zod"]),
+    dict(slug="tusuerte", name="TuSuerteEC", tag="SORTEOS",
+         desc="Plataforma de sorteos en vivo para marcas y comunidades, con planes de pago, transparencia y seguridad de datos.",
+         chips=["Next.js", "TypeScript", "Supabase", "Stripe", "Tailwind"]),
 ]
 
 # ids de skillicons.dev; "devicon:<ruta>" o "si:<nombre>" (Simple Icons) para los que
