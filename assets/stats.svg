@@ -58,7 +58,7 @@
       <animate attributeName="opacity" values="0;1" dur=".45s" begin="0.15s" fill="freeze"/>
       <rect x="44" y="87" width="7" height="7" fill="#c084fc" transform="rotate(45 47.5 90.5)"/>
       <text x="62" y="96" class="lbl">Commits (último año)</text>
-      <text x="410" y="96" text-anchor="end" class="num">451</text>
+      <text x="410" y="96" text-anchor="end" class="num">457</text>
     </g>
     <g opacity="0">
       <animate attributeName="opacity" values="0;1" dur=".45s" begin="0.23s" fill="freeze"/>
@@ -91,7 +91,7 @@
       <text x="860" y="96" text-anchor="end" class="pct">53.1%</text>
       <rect x="610" y="87" width="170" height="6" rx="3" fill="#1f0f33"/>
       <rect x="610" y="87" width="0" height="6" rx="3" fill="url(#bar)">
-        <animate attributeName="width" values="0;90.3" dur="1.2s" begin="0.30s"
+        <animate attributeName="width" values="0;90.2" dur="1.2s" begin="0.30s"
                  calcMode="spline" keySplines=".2 .7 .3 1" fill="freeze"/>
       </rect>
     </g>
@@ -99,10 +99,10 @@
       <animate attributeName="opacity" values="0;1" dur=".4s" begin="0.42s" fill="freeze"/>
       <circle cx="494" cy="117" r="4" fill="#3178c6"/>
       <text x="504" y="122" class="lbl">TypeScript</text>
-      <text x="860" y="122" text-anchor="end" class="pct">19.9%</text>
+      <text x="860" y="122" text-anchor="end" class="pct">20.0%</text>
       <rect x="610" y="113" width="170" height="6" rx="3" fill="#1f0f33"/>
       <rect x="610" y="113" width="0" height="6" rx="3" fill="url(#bar)">
-        <animate attributeName="width" values="0;33.9" dur="1.2s" begin="0.42s"
+        <animate attributeName="width" values="0;34.0" dur="1.2s" begin="0.42s"
                  calcMode="spline" keySplines=".2 .7 .3 1" fill="freeze"/>
       </rect>
     </g>
@@ -142,7 +142,7 @@
     <rect x="40" y="232" width="820" height="1" fill="url(#split)"/>
     <g opacity="0">
       <animate attributeName="opacity" values="0;1" dur=".5s" begin="0.60s" fill="freeze"/>
-      <text x="150" y="282" text-anchor="middle" class="big" filter="url(#glow)">498</text>
+      <text x="150" y="282" text-anchor="middle" class="big" filter="url(#glow)">504</text>
       <text x="150" y="302" text-anchor="middle" class="unit">contribuciones</text>
       <text x="150" y="324" text-anchor="middle" class="cap">ÚLTIMO AÑO</text>
     </g>
@@ -153,7 +153,7 @@
         <animateTransform attributeName="transform" type="scale" values="1 1;1 1.06;1 1" dur="1.4s"
                           additive="sum" repeatCount="indefinite"/>
       </path>
-      <text x="450" y="282" text-anchor="middle" class="big" filter="url(#glow)">0</text>
+      <text x="450" y="282" text-anchor="middle" class="big" filter="url(#glow)">1</text>
       <text x="450" y="302" text-anchor="middle" class="unit">días</text>
       <text x="450" y="324" text-anchor="middle" class="cap">RACHA ACTUAL</text>
     </g>
