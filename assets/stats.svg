@@ -58,13 +58,13 @@
       <animate attributeName="opacity" values="0;1" dur=".45s" begin="0.15s" fill="freeze"/>
       <rect x="44" y="87" width="7" height="7" fill="#c084fc" transform="rotate(45 47.5 90.5)"/>
       <text x="62" y="96" class="lbl">Commits (último año)</text>
-      <text x="410" y="96" text-anchor="end" class="num">517</text>
+      <text x="410" y="96" text-anchor="end" class="num">520</text>
     </g>
     <g opacity="0">
       <animate attributeName="opacity" values="0;1" dur=".45s" begin="0.23s" fill="freeze"/>
       <rect x="44" y="113" width="7" height="7" fill="#c084fc" transform="rotate(45 47.5 116.5)"/>
       <text x="62" y="122" class="lbl">Pull requests</text>
-      <text x="410" y="122" text-anchor="end" class="num">69</text>
+      <text x="410" y="122" text-anchor="end" class="num">70</text>
     </g>
     <g opacity="0">
       <animate attributeName="opacity" values="0;1" dur=".45s" begin="0.31s" fill="freeze"/>
@@ -91,7 +91,7 @@
       <text x="860" y="96" text-anchor="end" class="pct">53.6%</text>
       <rect x="610" y="87" width="170" height="6" rx="3" fill="#1f0f33"/>
       <rect x="610" y="87" width="0" height="6" rx="3" fill="url(#bar)">
-        <animate attributeName="width" values="0;91.0" dur="1.2s" begin="0.30s"
+        <animate attributeName="width" values="0;91.1" dur="1.2s" begin="0.30s"
                  calcMode="spline" keySplines=".2 .7 .3 1" fill="freeze"/>
       </rect>
     </g>
@@ -124,7 +124,7 @@
       <text x="860" y="174" text-anchor="end" class="pct">7.2%</text>
       <rect x="610" y="165" width="170" height="6" rx="3" fill="#1f0f33"/>
       <rect x="610" y="165" width="0" height="6" rx="3" fill="url(#bar)">
-        <animate attributeName="width" values="0;12.2" dur="1.2s" begin="0.66s"
+        <animate attributeName="width" values="0;12.3" dur="1.2s" begin="0.66s"
                  calcMode="spline" keySplines=".2 .7 .3 1" fill="freeze"/>
       </rect>
     </g>
@@ -142,7 +142,7 @@
     <rect x="40" y="232" width="820" height="1" fill="url(#split)"/>
     <g opacity="0">
       <animate attributeName="opacity" values="0;1" dur=".5s" begin="0.60s" fill="freeze"/>
-      <text x="150" y="282" text-anchor="middle" class="big" filter="url(#glow)">555</text>
+      <text x="150" y="282" text-anchor="middle" class="big" filter="url(#glow)">559</text>
       <text x="150" y="302" text-anchor="middle" class="unit">contribuciones</text>
       <text x="150" y="324" text-anchor="middle" class="cap">ÚLTIMO AÑO</text>
     </g>
@@ -153,7 +153,7 @@
         <animateTransform attributeName="transform" type="scale" values="1 1;1 1.06;1 1" dur="1.4s"
                           additive="sum" repeatCount="indefinite"/>
       </path>
-      <text x="450" y="282" text-anchor="middle" class="big" filter="url(#glow)">2</text>
+      <text x="450" y="282" text-anchor="middle" class="big" filter="url(#glow)">3</text>
       <text x="450" y="302" text-anchor="middle" class="unit">días</text>
       <text x="450" y="324" text-anchor="middle" class="cap">RACHA ACTUAL</text>
     </g>
