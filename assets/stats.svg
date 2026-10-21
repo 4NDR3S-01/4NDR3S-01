@@ -153,7 +153,7 @@
         <animateTransform attributeName="transform" type="scale" values="1 1;1 1.06;1 1" dur="1.4s"
                           additive="sum" repeatCount="indefinite"/>
       </path>
-      <text x="450" y="282" text-anchor="middle" class="big" filter="url(#glow)">3</text>
+      <text x="450" y="282" text-anchor="middle" class="big" filter="url(#glow)">0</text>
       <text x="450" y="302" text-anchor="middle" class="unit">días</text>
       <text x="450" y="324" text-anchor="middle" class="cap">RACHA ACTUAL</text>
     </g>
