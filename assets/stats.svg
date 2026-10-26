@@ -58,7 +58,7 @@
       <animate attributeName="opacity" values="0;1" dur=".45s" begin="0.15s" fill="freeze"/>
       <rect x="44" y="87" width="7" height="7" fill="#c084fc" transform="rotate(45 47.5 90.5)"/>
       <text x="62" y="96" class="lbl">Commits (último año)</text>
-      <text x="410" y="96" text-anchor="end" class="num">520</text>
+      <text x="410" y="96" text-anchor="end" class="num">504</text>
     </g>
     <g opacity="0">
       <animate attributeName="opacity" values="0;1" dur=".45s" begin="0.23s" fill="freeze"/>
@@ -142,7 +142,7 @@
     <rect x="40" y="232" width="820" height="1" fill="url(#split)"/>
     <g opacity="0">
       <animate attributeName="opacity" values="0;1" dur=".5s" begin="0.60s" fill="freeze"/>
-      <text x="150" y="282" text-anchor="middle" class="big" filter="url(#glow)">559</text>
+      <text x="150" y="282" text-anchor="middle" class="big" filter="url(#glow)">541</text>
       <text x="150" y="302" text-anchor="middle" class="unit">contribuciones</text>
       <text x="150" y="324" text-anchor="middle" class="cap">ÚLTIMO AÑO</text>
     </g>
